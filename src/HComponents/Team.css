@@ -1,0 +1,83 @@
+.dev {
+    background-color: rgba(97, 12, 177, 0.116);
+    font-family: "Roboto Condensed", sans-serif;
+    width: 100%;
+    height: 600px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     /* background: url("../assets/purplewave.svg");  */
+  }
+  
+  .devs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .the-two-devs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .the-two-devs h3 {
+    color: blueviolet;
+  }
+  
+  .the-two-devs p {
+    margin-top: 10px;
+  }
+  
+  .dev-1,
+  .dev-2,
+  .dev-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+  }
+  
+  .dev-1 {
+    margin-right: 20px;
+  }
+  
+  .dev-1 {
+    margin-left: 20px;
+  }
+  
+  .dev-1 h3 {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  
+  .dev-2 h3 {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+
+  .dev-3 h3 {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  
+  .dev-1 img,
+  .dev-2 img,
+  .dev-3 img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(181, 165, 197);
+  }
+  
+  .devs h1 {
+    margin-top: 30px;
+    font-size: 50px;
+  }
+  

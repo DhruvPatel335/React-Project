@@ -1,0 +1,22 @@
+.TimelineInput {
+    border-radius:20px;
+}
+
+.TimelineInput > form{
+    position:relative;
+    display:flex;
+    justify-content:center;
+}
+
+.TimelineInput> form > input{
+    position:fixed;
+    bottom:30px;
+    width:60%;
+    border:1px solid gray;
+    border-radius:3px;
+    padding:20px;
+}
+
+.TimelineInput> form > button{
+    display: none !important;
+}

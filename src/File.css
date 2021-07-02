@@ -1,0 +1,30 @@
+.file{
+    display:flex;
+    align-items:center;
+    padding: 20px;
+}
+
+.fileuserimage >img{
+    position: relative;
+    top: 10px;
+    height:50px;
+    width:50px;
+    object-fit: contain;
+}
+
+.fileinfo{
+    padding-left: 10px;
+
+}
+
+.filetimestamp{
+    color:gray;
+    font-weight: 50px;
+    font-size: 13px;
+}
+
+.fileimage > img{
+    object-fit: contain;
+    height: 200px;
+    width: 200px;
+}

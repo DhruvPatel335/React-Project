@@ -1,0 +1,52 @@
+.people{
+    flex: 0.7;
+    flex-grow: 1;
+    overflow: scroll;
+    padding-bottom:150px;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(170, 208, 243));
+   
+   
+   }
+   
+   .people__header{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding:20px;
+       border-bottom:1px solid lightgray;
+   }
+   
+   .people__channelName{
+       display: flex;
+       text-transform: lowercase;
+   }
+   .people__channelName> .MuiSvgIcon-root{
+       margin-left: 10px;
+       font-size: 18px;
+   }
+   
+   .people__headerRight >p {
+       display: flex;
+       align-items: center;
+       padding:14px;
+   }
+   
+   .people__headerRight >p >.MuiSvgIcon-root {
+      margin-right: 5px !important;
+       font-size: 16px;
+   }
+
+   .people__details{
+       display:flex;
+   }
+   .members{
+       padding-left: 12px;
+   }
+
+   .members .MuiSvgIcon-root{
+    font-size: 14px;
+    margin-top: 4px;
+    margin-right: 2px;
+    color: green;
+    display: inline-flex;
+}

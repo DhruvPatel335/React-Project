@@ -1,0 +1,12 @@
+body{
+   
+    --display-color:  #434fbd  ;
+ 
+    overflow:scroll;
+}
+
+.app__body{
+    display:flex;
+    height:100vh;
+
+}

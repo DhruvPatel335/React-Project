@@ -1,0 +1,33 @@
+.peopleDetails{
+    background-color:#A2D5AB;
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.peopleUserImage{
+    width:100%;
+}
+.peopleUserName >h4{
+    width: 100;
+    text-align: match-parent;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+.peopleUserName .email{
+    word-wrap: break-word;
+    font-size: 10px;
+}
+
+.peopleUserImage>div>img{
+    border-radius: 50%;
+}
+.left>div{
+    display: flex;
+    align-items: center;
+    padding:5px;
+}
